@@ -1,0 +1,39 @@
+body{
+
+background-color: black;
+background-size: cover;}
+
+#astro1{
+    margin-top: -390px;
+    margin-left: -100px;
+    height: 1100px;
+}
+
+#astro2{
+    height: 500px;
+    width: 700px;
+    margin-top: 140px;
+    margin-left: 550px;
+}
+
+
+h3{
+    font-size: 50px !important;
+    color: white;
+}
+
+btn-success.hover{
+    background-color: white;
+}
+
+canvas {
+ animation-name: example;
+ animation-duration: 4s;
+ animation-iteration-count: infinite;
+}
+
+@keyframes example {
+     from{box-shadow: 1px 1px 38px white}
+     to{box-shadow: 1px 1px 38px gray ;
+     }
+}
